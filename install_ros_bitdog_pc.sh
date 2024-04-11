@@ -89,9 +89,9 @@ sh -c "echo \"export ROS_MASTER_URI=http://localhost:11311\" >> ~/.bashrc"
 sh -c "echo \"export ROS_HOSTNAME=localhost\" >> ~/.bashrc"
 
 echo "[Install_RT]"
-apt-get install python3-pip
-apt install openssh-server -y
-apt-get install git -y
+sudo apt-get install python3-pip
+sudo apt install openssh-server -y
+sudo apt-get install git -y
 pip3 install pyserial
 pip3 install opencv_python
 pip3 install mediapipe
